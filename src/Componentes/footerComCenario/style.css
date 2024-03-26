@@ -1,0 +1,16 @@
+.Fundo{
+    background-color: #050417;
+}
+
+.Fundo ul{
+    text-align: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.Fundo img{
+    width: 100%;
+}
