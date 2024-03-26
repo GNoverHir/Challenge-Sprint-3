@@ -4,7 +4,7 @@ import CenarioFooter from '../../assets/Fundo Footer.svg'
 const FooterComCenario = () => {
 
     return(
-        <div className='Fundo'>
+        <footer className='Fundo'>
             <img src={CenarioFooter} alt="" />
             <ul>
                 <li>© 2020 Name.</li>
@@ -12,7 +12,7 @@ const FooterComCenario = () => {
                 <li>Copyright © 2020 Name.</li>
                 <li>Copyright © 2020 Name. All rights reserved.</li>
             </ul>
-        </div>
+        </footer>
     )
 }
 

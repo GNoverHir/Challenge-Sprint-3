@@ -1,0 +1,15 @@
+footer{
+    background-color: #006647 ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+footer ul{
+    font-family: InterBold, 'sans-serif';
+    color: white;
+    list-style: none;
+
+}
