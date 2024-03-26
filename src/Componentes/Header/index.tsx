@@ -16,7 +16,7 @@ const Header = () => {
                     <h4>Entre em contato</h4>
                     <h4>0800 891 1887</h4>
                 </div>
-                <button>Login/Cadastro</button>
+                <Link to='/login'><button>Login/Cadastro</button></Link>
             </div>
         </header>
     )

@@ -3,6 +3,7 @@
 header{
     width: 100%;
     height: 15vh;
+    margin-bottom: 10vh;
 }
 
 .Container{
@@ -46,4 +47,17 @@ header button{
 
 a:hover{
     color: #00A1E0;
+}
+
+header button:hover{
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1);}
+    50% { transform: scale(1.1)}
+}
+
+header button:active{
+    translate: 3px 3px ;
 }
