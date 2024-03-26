@@ -10,6 +10,16 @@ header{
     justify-content: space-around;
     align-items: center;
     margin-top: 2vh;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+}
+
+header a{
+    font-family: InterBlack, sans-serif;
+    font-size: 16px;
+    color: #00BEA7;
+    filter: drop-shadow(3px 3px 3px rgb(90, 90, 90));
+    text-decoration: none;
 }
 
 header button{
@@ -18,5 +28,22 @@ header button{
     border-radius: 20px;
     font-family: InterBlack, sans-serif;
     color: white;
-    background-color: ;
+    font-size: 16px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #00A1E0;
+    filter: drop-shadow(3px 3px 3px rgb(90, 90, 90));
+}
+
+.EntrarContato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-family: InterRegular, sans-serif;
+    color: #517371;
+}
+
+a:hover{
+    color: #00A1E0;
 }
