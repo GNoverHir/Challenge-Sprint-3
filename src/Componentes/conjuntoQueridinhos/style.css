@@ -22,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: rgb(0,161,224, 0.2) ;
     padding: 5vw;
     padding-bottom: 2vw;
@@ -35,7 +36,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-left: 4vh;
 }
 
 
@@ -52,13 +52,18 @@
     font-size: 15px;
     color: white;
     margin-top: 2vh;
-    width: 25vw;
+    width: 40vw;
 }
 
 .SectQueridinhos h2{
     margin-top: 4vh;
     color: #00A1E0;
 
+}
+
+.ConjuntoPainelProduto img{
+    margin-bottom: 4vh;
+    margin-right: 4vh;
 }
 
 

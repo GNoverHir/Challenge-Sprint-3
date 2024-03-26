@@ -21,6 +21,7 @@ header a{
     color: #00BEA7;
     filter: drop-shadow(3px 3px 3px rgb(90, 90, 90));
     text-decoration: none;
+    margin-right: 1vw;
 }
 
 header button{
