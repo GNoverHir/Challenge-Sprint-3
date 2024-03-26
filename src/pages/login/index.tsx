@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom'
 import './style.css'
+import Footer from '../../Componentes/footer'
+import ConjuntoLogin from '../../Componentes/conjuntoLogin'
 
 const Login = () => {
 
     return(
         <div>
-            <h1>Login</h1>
-            <Link to="/">Home</Link>
-            <Link to="/login">Login</Link>
+            <ConjuntoLogin/>
+            <Footer/>
         </div>
     )
 }
