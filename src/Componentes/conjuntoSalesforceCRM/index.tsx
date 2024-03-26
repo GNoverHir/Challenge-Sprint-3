@@ -1,5 +1,4 @@
 import './style.css'
-import Header from '../../Componentes/header'
 import { Link } from 'react-router-dom'
 import Trailer1 from '../../assets/trailler-1.svg'
 import MulherTerra from '../../assets/mulher terra.svg'

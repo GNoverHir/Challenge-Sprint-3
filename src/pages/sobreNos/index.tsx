@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom'
 import './style.css'
 import Header from '../../Componentes/header'
+import FooterComCenario from '../../Componentes/footerComCenario/'
+import ConjuntoSobreNos from '../../Componentes/conjuntoSobreNos'
 
 const SobreNos = () => {
 
     return(
         <div>
             <Header/>
-            <h1>SOBRE NOS</h1>
-            <Link to="/">Home</Link>
+            <ConjuntoSobreNos/>
+            <FooterComCenario/>
         </div>
     )
 }

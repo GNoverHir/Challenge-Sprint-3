@@ -3,7 +3,7 @@ import './style.css'
 const Footer = () => {
 
     return(
-        <footer>
+        <footer className='FooterPadrao'>
             <ul>
                 <li>© 2020 Name.</li>
                 <li>© 2020 Name. All rights reserved.</li>

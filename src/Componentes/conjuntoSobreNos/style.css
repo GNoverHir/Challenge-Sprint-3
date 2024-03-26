@@ -1,0 +1,36 @@
+
+.Conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Conteudo h1{
+    font-family: InterBlack, 'sans=serif';
+    font-size: 40px;
+    color: #00A1E0;
+    margin-top: 5vh;
+}
+
+.Conteudo p{
+    color: white;
+    font-family: InterBold, 'sans-serif';
+    font-size: 25px;
+    margin-top: 7vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+
+.CorFundo{
+    background-color: #050417;
+    padding-top: 9vh;
+    padding-bottom: 20vh;
+
+}
+
+.ImgCenarioAventura{
+    width: 100%;
+    margin: 0px;
+}
