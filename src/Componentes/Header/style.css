@@ -1,5 +1,22 @@
+
+
 header{
     width: 100%;
     height: 15vh;
-    background-color: black;
+}
+
+.Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+header button{
+    border: none;
+    padding: 1vh;
+    border-radius: 20px;
+    font-family: InterBlack, sans-serif;
+    color: white;
+    background-color: ;
 }
