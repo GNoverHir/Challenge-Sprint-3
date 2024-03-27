@@ -77,6 +77,7 @@ input::placeholder{
 
 .CadastroConteudo2 button:hover{
     animation: pulse 2s infinite;
+    cursor: pointer;
 }
     
 @keyframes pulse {

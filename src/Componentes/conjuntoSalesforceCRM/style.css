@@ -20,6 +20,7 @@
 
 .Conjunto1 button:hover{
     animation: pulse 2s infinite;
+    cursor: pointer;
 }
     
 @keyframes pulse {
