@@ -35,6 +35,7 @@ header button{
     padding-right: 2vw;
     background-color: #00A1E0;
     filter: drop-shadow(3px 3px 3px rgb(90, 90, 90));
+    cursor: pointer;
 }
 
 .EntrarContato{
