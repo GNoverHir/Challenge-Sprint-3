@@ -1,4 +1,3 @@
-import './style.css'
 import Footer from '../../Componentes/footer'
 import ConjuntoLogin from '../../Componentes/conjuntoLogin'
 

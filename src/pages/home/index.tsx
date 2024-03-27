@@ -1,5 +1,4 @@
 
-import './style.css'
 import Header from '../../Componentes/header'
 import SalesforceAndCRM from '../../Componentes/conjuntoSalesforceCRM'
 import ConjuntoQueridinhos from '../../Componentes/conjuntoQueridinhos'
