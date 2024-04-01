@@ -1,3 +1,4 @@
+// Código html import
 import { Link } from 'react-router-dom'
 import './style.css'
 import logoSalesforce from '../../assets/logoSalesforce.svg'
