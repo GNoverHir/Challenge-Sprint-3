@@ -1,4 +1,4 @@
-import Header from '../../Componentes/header'
+import Header from '../../Componentes/Header'
 import FooterComCenario from '../../Componentes/footerComCenario/'
 import ConjuntoSobreNos from '../../Componentes/conjuntoSobreNos'
 

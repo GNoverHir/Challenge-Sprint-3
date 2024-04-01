@@ -1,4 +1,4 @@
-import Header from '../../Componentes/header'
+import Header from '../../Componentes/Header'
 import Footer from '../../Componentes/footer'
 import ConjuntoProdutos from '../../Componentes/conjuntoProdutos'
 
