@@ -8,7 +8,7 @@ import Login from './pages/login/index.tsx'
 import Produtos from './pages/produtos/index.tsx'
 import SobreNos from './pages/sobreNos/index.tsx'
 import Suporte from './pages/suporte/index.tsx'
-
+import Integrantes from './pages/integrantes/index.tsx'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +34,10 @@ const router = createBrowserRouter([
   {
     path:'/suporte',
     element: <Suporte/>
+  },
+  {
+    path:'/integrantes',
+    element: <Integrantes/>
   }
 ])
 

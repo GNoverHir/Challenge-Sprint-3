@@ -1,3 +1,4 @@
+// Código html import
 import { Link } from 'react-router-dom'
 import './style.css'
 import logoSalesforce from '../../assets/logoSalesforce.svg'
@@ -12,6 +13,7 @@ const Header = () => {
                 <h3><Link to='/sobreNos' >Sobre Nos</Link></h3>
                 <h3><Link to='/produtos' >Produtos</Link></h3>
                 <h3><Link to='/suporte' >Suporte</Link></h3>
+                <h3><Link to='/integrantes'>Integrantes</Link></h3>
                 <div className='EntrarContato'>
                     <h4>Entre em contato</h4>
                     <h4>0800 891 1887</h4>
