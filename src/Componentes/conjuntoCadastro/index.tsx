@@ -12,7 +12,7 @@ const ConjuntoCadastro = () => {
     const [Name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [Tel, setTel] = useState(0)
-    const [TamEmpresa, setTamEmpresa] = useState()
+    const [TamEmpresa, setTamEmpresa] = useState(0)
     const [Pais, setPais] = useState ("")
     const [Idioma, setIdioma] = useState ("")
     const [Senha, setSenha] = useState("")
@@ -46,9 +46,9 @@ const ConjuntoCadastro = () => {
                 "nomeCompleto": Name,
                 "email": email,
                 "telefone": Tel,
-                // "tamanhoEmpresa": TamEmpresa,
-                // "pais": Pais,
-                // "idioma": Idioma,
+                "tamanhoEmpresa": TamEmpresa,
+                "pais": Pais,
+                "idioma": Idioma,
                 "senha": Senha
 
                     // "nomeCompleto": "TestePosTrauma",
@@ -84,12 +84,8 @@ const ConjuntoCadastro = () => {
                         <input onChange={(e) => setEmail(e.target.value)} type="email" name="" id="" placeholder='Digite seu email' />
                         <input onChange={(e) => setSenha(e.target.value)} type="password" name="senha" id="senha" placeholder='Cadastre uma senha!'/>
                         <input onChange={(e) => setTel(parseInt(e.target.value))} type="number" name="telefone" id="telefone" placeholder='Digite seu telefone'/>
-                        {/* <input onChange={(e) => setTamEmpresa(e.target.value)} type="number" name='tamanhoEmpresa' id='tamanhoEmpresa' placeholder='Quantos funcionário tem na sua empresa' />
-                        <input onChange={(e) => setPais(e.target.value)} type="text" name="Pais" id="Pais" placeholder='Qual o seu pais'/>
-                        <input onChange={(e) => setIdioma(e.target.value)} type="text" name="Idioma" id="Idioma" placeholder='Qual seu idioma?'/> */}
-                        
-                        
-                        {/* <select onChange={(e) => setPais(e.target.value)} name="Pais/Regiao" id="PaisRegiao">
+                        <input onChange={(e) => setTamEmpresa(parseInt(e.target.value))} type="number" name='tamanhoEmpresa' id='tamanhoEmpresa' placeholder='Quantos funcionário tem na sua empresa' />
+                        <select onChange={(e) => setPais(e.target.value)} name="Pais/Regiao" id="PaisRegiao">
                             <option value="PaisRegiao" disabled selected>Pais/Regiao</option>
                             <option value="Brasil">Brasil</option>
                             <option value="USA">USA</option>
@@ -99,7 +95,7 @@ const ConjuntoCadastro = () => {
                             <option value="Portugues">Portugues</option>
                             <option value="Ingles">Inglês</option>
                             <option value="Espanhol">Espanhol</option>
-                        </select> */}
+                        </select>
                         <button onClick={req}>COMEÇAR TESTE!</button>
                     </section>
                     <Link to="/"><img width={180} height={126} src={LogoSalesforce} alt="Logo Salesforce" /></Link>
