@@ -3,8 +3,70 @@ import Imagem30Dias from '../../assets/30 dia salesforce.png'
 import HomemFeliz from '../../assets/homem feliz.svg'
 import LogoSalesforce from '../../assets/logoSalesforce.svg'
 import {Link} from 'react-router-dom'
+import { useState } from 'react'
+import axios from 'axios'
 
 const ConjuntoCadastro = () => {
+
+
+    const [Name, setName] = useState("")
+    const [email, setEmail] = useState("")
+    const [Tel, setTel] = useState(0)
+    const [TamEmpresa, setTamEmpresa] = useState()
+    const [Pais, setPais] = useState ("")
+    const [Idioma, setIdioma] = useState ("")
+    const [Senha, setSenha] = useState("")
+
+
+    // const req = async () => {
+
+    //             axios.post("http://localhost:8080/usuario/cadastro", {
+    //                 "nomeCompleto": Name,
+    //                 "email": email,
+    //                 "telefone": Tel,
+    //                 "tamanhoEmpresa": TamEmpresa,
+    //                 "pais": Pais,
+    //                 "idioma": Idioma,
+    //                 "senha": Senha
+    // }
+    // )
+
+    // }
+
+    
+
+    const req = async ()=> {
+    try{
+      const response = await axios({
+        method: "post",
+        url: "http://localhost:8080/usuario",
+        headers: {"Content-Type": "application/json"},
+        data: {
+            
+                "nomeCompleto": Name,
+                "email": email,
+                "telefone": Tel,
+                // "tamanhoEmpresa": TamEmpresa,
+                // "pais": Pais,
+                // "idioma": Idioma,
+                "senha": Senha
+
+                    // "nomeCompleto": "TestePosTrauma",
+                    // "email": "Pos@Trauma",
+                    // "telefone": 99999999,
+                    // "tamanhoEmpresa": 6661232,
+                    // "pais": "EUA",
+                    // "idioma": "Twanes",
+                    // "senha": "Trauma123"
+            
+        }
+      })
+      console.log(response);
+    }catch(err){
+      console.log(err)
+      
+    }
+  }
 
     return(
         <div>
@@ -17,30 +79,29 @@ const ConjuntoCadastro = () => {
                 <div className='CadastroConteudo2'>
                     <h1>CADASTRO.</h1>
                     <h1>TESTE GRATUITO!</h1>
-                    <form action="/cadastro">
-                        <input type="text" name="nome" id="nome" placeholder='Digite seu nome completo'/> 
-                        <input type="email" name="" id="" placeholder='Digite seu email' />
-                        <input type="number" name="telefone" id="telefone" placeholder='Digite seu telefone'/>
-                        <select name="tamanhoEmpresa" id="tamanhoEmpresa">
-                            <option value="" disabled selected>Qual o tamanho da empresa?</option>
-                            <option value="1-10">1-10 Funcionarios</option>
-                            <option value="11-100">11-100 Funcionarios</option>
-                            <option value="101-1000">101-1000 Funcionarios</option>
-                            <option value="1000+">1000+ Funcionarios</option>
-                        </select>
-                        <select name="Pais/Regiao" id="PaisRegiao">
+                    <section className='formulario'>
+                        <input onChange={(e) => setName(e.target.value)} type="text" name="nome" id="nome" placeholder='Digite seu nome completo'/> 
+                        <input onChange={(e) => setEmail(e.target.value)} type="email" name="" id="" placeholder='Digite seu email' />
+                        <input onChange={(e) => setSenha(e.target.value)} type="password" name="senha" id="senha" placeholder='Cadastre uma senha!'/>
+                        <input onChange={(e) => setTel(parseInt(e.target.value))} type="number" name="telefone" id="telefone" placeholder='Digite seu telefone'/>
+                        {/* <input onChange={(e) => setTamEmpresa(e.target.value)} type="number" name='tamanhoEmpresa' id='tamanhoEmpresa' placeholder='Quantos funcionário tem na sua empresa' />
+                        <input onChange={(e) => setPais(e.target.value)} type="text" name="Pais" id="Pais" placeholder='Qual o seu pais'/>
+                        <input onChange={(e) => setIdioma(e.target.value)} type="text" name="Idioma" id="Idioma" placeholder='Qual seu idioma?'/> */}
+                        
+                        
+                        {/* <select onChange={(e) => setPais(e.target.value)} name="Pais/Regiao" id="PaisRegiao">
                             <option value="PaisRegiao" disabled selected>Pais/Regiao</option>
                             <option value="Brasil">Brasil</option>
                             <option value="USA">USA</option>
                         </select>
-                        <select name="idiom" id="Idioma">
+                        <select onChange={(e) => setIdioma(e.target.value)} name="idiom" id="Idioma">
                             <option value="Idioma" disabled selected>Idioma</option>
                             <option value="Portugues">Portugues</option>
-                            <option value="Ingles">Ingles</option>
+                            <option value="Ingles">Inglês</option>
                             <option value="Espanhol">Espanhol</option>
-                        </select>
-                        <button type='submit'>COMEÇAR TESTE!</button>
-                    </form>
+                        </select> */}
+                        <button onClick={req}>COMEÇAR TESTE!</button>
+                    </section>
                     <Link to="/"><img width={180} height={126} src={LogoSalesforce} alt="Logo Salesforce" /></Link>
                 </div>
             </div>

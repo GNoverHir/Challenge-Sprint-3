@@ -31,7 +31,12 @@
     color: #00A1E0;
 }
 
-form input{
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input{
     border: none;
     border-radius: 30px;
     width: 340px;
@@ -42,7 +47,7 @@ form input{
     margin-top: 20px;
 }
 
-form select{
+.formulario select{
     border: none;
     border-radius: 30px;
     width: 340px;
