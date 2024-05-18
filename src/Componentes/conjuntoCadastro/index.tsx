@@ -18,21 +18,6 @@ const ConjuntoCadastro = () => {
     const [Senha, setSenha] = useState("")
 
 
-    // const req = async () => {
-
-    //             axios.post("http://localhost:8080/usuario/cadastro", {
-    //                 "nomeCompleto": Name,
-    //                 "email": email,
-    //                 "telefone": Tel,
-    //                 "tamanhoEmpresa": TamEmpresa,
-    //                 "pais": Pais,
-    //                 "idioma": Idioma,
-    //                 "senha": Senha
-    // }
-    // )
-
-    // }
-
     
 
     const req = async ()=> {
@@ -50,14 +35,6 @@ const ConjuntoCadastro = () => {
                 "pais": Pais,
                 "idioma": Idioma,
                 "senha": Senha
-
-                    // "nomeCompleto": "TestePosTrauma",
-                    // "email": "Pos@Trauma",
-                    // "telefone": 99999999,
-                    // "tamanhoEmpresa": 6661232,
-                    // "pais": "EUA",
-                    // "idioma": "Twanes",
-                    // "senha": "Trauma123"
             
         }
       })
