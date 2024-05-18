@@ -14,7 +14,7 @@ const SalesforceAndCRM = () => {
                 <div className='Conjunto1'>
                     <section className='SectConjunto1'>
                         <h1>SALESFORCE?</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quae fugit soluta natus, sequi autem explicabo provident expedita totam commodi, rem officia ullam quis? Magnam numquam blanditiis quis corporis alias! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat laboriosam eligendi aliquid odit, voluptates quae molestias sed quas. Saepe blanditiis optio adipisci, ut doloremque animi deleniti harum fugiat cupiditate expedita. Lorem ipsum dolor sit amet. 33 autem rerum sit illum placeat est quos corrupti in fugiat quia. Aut dolore delectus ut pariatur libero sed sint tempora non modi dolore et voluptatibus sint et quod quas sed provident cumque.</p>
+                        <p>A Salesforce é uma das principais empresas globais no campo de Customer Relationship Management (CRM), oferecendo uma ampla gama de soluções e serviços voltados para melhorar e gerenciar o relacionamento das empresas com seus clientes. Fundada em 1999 por Marc Benioff e Parker Harris, a Salesforce rapidamente se estabeleceu como líder no mercado de CRM, revolucionando a forma como as empresas interagem com seus clientes.</p>
                         <Link to='/sobreNos'><button>SAIBA MAIS</button></Link>
                     </section>
                         <img height={222} width={538} src={Trailer1} alt="Trailer" />
@@ -26,7 +26,7 @@ const SalesforceAndCRM = () => {
                     <img height={285} width={490} src={MulherTerra} alt="Mulher Terra" />
                     <section className='SectConjunto2'>
                         <h1>O QUE É CRM?</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sed repellendus facere sapiente eum quidem soluta distinctio odio mollitia, itaque ea assumenda maiores. Consectetur, alias debitis. Neque ipsum quibusdam inventore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo fuga distinctio similique aspernatur ut, quidem architecto possimus illum? Aut voluptatem dolorum ex nostrum? Similique quasi laborum sequi reprehenderit tenetur illum. Lorem ipsum dolor sit amet. 33 autem rerum sit illum placeat est quos corrupti in fugiat quia. Aut dolore delectus ut pariatur libero sed sint tempora non modi dolore et voluptatibus sint et quod quas sed provident cumque. </p>
+                        <p>CRM, ou Customer Relationship Management (Gestão de Relacionamento com o Cliente, em português), é uma estratégia de negócios que visa melhorar o relacionamento de uma empresa com seus clientes, potencializando as interações e o engajamento ao longo do ciclo de vida do cliente. O CRM envolve o uso de tecnologias, processos e práticas para gerenciar e analisar as interações com clientes e dados associados.</p>
                     </section>
                 </div>
 

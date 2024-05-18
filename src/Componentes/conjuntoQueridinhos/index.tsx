@@ -14,7 +14,7 @@ const ConjuntoQueridinhos = () => {
                     <Link to="/produtos"><img width={100} height={100} src={SalesCloudLogo} alt="Sales Cloud Logo" /></Link>
                     <section className='SectQueridinhos'>
                         <h1>SALES CLOUD!</h1>
-                        <p>Lorem ipsum dolor sit amet. 33 autem rerum sit illum placeat est quos corrupti in fugiat quia. Aut dolore delectus ut pariatur libero sed sint tempora non modi dolore et voluptatibus sint et quod quas sed provident cumque. </p>
+                        <p>O Sales Cloud é uma ferramenta poderosa e abrangente que capacita as equipes de vendas a gerenciar todo o ciclo de vendas de forma mais eficiente e eficaz. Com suas funcionalidades avançadas e integração perfeita com outras ferramentas de negócios, o Sales Cloud ajuda as empresas a aumentar a produtividade, melhorar o relacionamento com os clientes e impulsionar o crescimento das vendas.</p>
                         <h2>→</h2>
                     </section> 
                 </div>
